@@ -10,7 +10,6 @@ const removeFromArray = function(arr, ...value) {
     return arr;
 };
 
+let testArr = [1, 2, 3, 4, 5, 2];
 
-
-// Do not edit below this line
-module.exports = removeFromArray;
+console.log(removeFromArray(testArr, 2, 3, 4));

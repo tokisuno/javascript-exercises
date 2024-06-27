@@ -11,5 +11,7 @@ const leapYears = (year) => {
     return false;
 }
 
-// Do not edit below this line
-module.exports = leapYears;
+console.log(leapYears(2000)); // true
+console.log(leapYears(1985)); // false
+console.log(leapYears(1996)); // true
+console.log(leapYears(1997)); // false

@@ -1,12 +1,6 @@
 const sumAll = function(x, y) {
     if (x < 0) { return "ERROR" };
     if (y < 0) { return "ERROR" };
-    if (typeof(x) !== "number") {
-        return "ERROR"
-    }
-    if (typeof(y) !== "number") {
-        return "ERROR"
-    }
 
     let order = biggestOfTwo(x, y);
 
@@ -44,7 +38,4 @@ const biggestOfTwo = (x, y) => {
     return arr;
 }
 
-
-
-// Do not edit below this line
-module.exports = sumAll;
+console.log(sumAll(1, 5));
